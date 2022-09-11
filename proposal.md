@@ -10,3 +10,4 @@
 - As a user, if i submit a empty form i would like a alert to be displayed to tell me to input correctly
 
 ### Data Snapshot  
+![Data Snapshot](./Data-Snapshot.png)
