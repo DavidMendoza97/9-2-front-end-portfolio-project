@@ -1,0 +1,48 @@
+article {
+  border: 3px solid black;
+  background-color: #d3d4d9;
+  display: flex;
+  align-items: justify;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 295px;
+}
+
+body {
+  background-color: #4b88a2;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: #d3d4d9;
+}
+
+#display-anime {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 5px;
+}
+
+#navBar {
+  background-color: #252627;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 75px;
+  text-align: center;
+  padding: 39px 0px 0px 0px;
+  margin-bottom: 20px;
+}
+
+#searchBar {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 3fr 0.5fr;
+}
